@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul,li{
+    list-style: none;
+}
+
+image{
+    display: block;
+}
+
+.clearfix::after,
+.clearfix::before{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility:hidden;
+}
+
+.clearfix{
+    zoom:1;
+}
+
+.w{
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.wl{
+    width: 675px;
+}
+
+.wr{
+    width:300px;
+}
+
+.wm{
+    width:60px;
+    height: 100px;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float:right;
+}
+
+html{
+    background-color:#fff;
+}
